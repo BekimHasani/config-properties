@@ -6,8 +6,8 @@ spring:
 #   Database Config
   datasource:
     url: jdbc:postgresql://localhost:5432/user_micro
-    username: beke
-    password: 4342
+    username: postgres
+    password:
     driver-class-name: org.postgresql.Driver
 #   Hibernate Config
   jpa:
