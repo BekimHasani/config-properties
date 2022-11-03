@@ -11,13 +11,13 @@ spring:
     driver-class-name: org.postgresql.Driver
 #   Hibernate Config
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
     hibernate:
       ddl-auto: update
     show-sql: true
     properties:
       hibernate:
         format_sql: true
-        dialect: org.hibernate.dialect.PostgreSQL94Dialect
 eureka:
   client:
     enabled: true
